@@ -1,0 +1,40 @@
+body {
+  background: #121212;
+  color: #FFF;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+input {
+  padding: 0.8rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+button {
+  background: #ff6f00;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.images {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.images img {
+  width: 100px;
+  border-radius: 4px;
+}
+.stats p {
+  margin: 0.5rem 0;
+}
